@@ -36,8 +36,7 @@ export = [
 ]
 pose = ["evo"]
 app = ["gradio>=5", "pillow>=9.0"]
-gs = ["gsplat @ git+https://github.com/nerfstudio-project/gsplat.git@0b4dddf04cb687367602c01196913cde6a743d70"]
-all = ["depth-anything-3[export,pose,app,gs]"]
+all = ["depth-anything-3[export,pose,app]"]
 
 
 [project.scripts]
