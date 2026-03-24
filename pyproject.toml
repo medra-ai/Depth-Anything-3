@@ -35,8 +35,7 @@ export = [
     "open3d",
 ]
 pose = ["evo"]
-app = ["gradio>=5", "pillow>=9.0"]
-all = ["depth-anything-3[export,pose,app]"]
+all = ["depth-anything-3[export,pose]"]
 
 
 [project.scripts]
