@@ -19,7 +19,7 @@ dependencies = [
     "numpy",
     "opencv-python",
     "pillow",
-    "omegaconf",
+    "omegaconf>=2.1.1",
     "safetensors",
     "addict",
 ]
